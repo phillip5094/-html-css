@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* body 엘리먼트가 가진 기본 스타일 제거 */
+body {
+  margin: 0;
+  padding: 0;
+}
+

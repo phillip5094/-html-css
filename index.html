@@ -4,26 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
   <title>HTML/CSS 기초</title>
 </head>
 <body>
-  <div>
-    <div>
-      <div>
-        <ul>
+  <main class="app">
+    <header class="app__header">
+      <nav class="app__gnb">
+        <ul class="app-gnb__service-list">
           <li><a href="#"><img src="./imgs/logo.svg" alt="TOAST Dooray!"></a></li>
           <li><a href="#">메일</a></li>
           <li><a href="#">주소록</a></li>
           <li><a href="#">What's UP</a></li>
         </ul>
-      </div>
-    </div>
-    <div>
-      <div>
+      </nav>
+    </header>
+    <nav class="app__lnb">
+      <div class="app-new-mail">
         <button>새 메일</button>
       </div>
-      <div>
-        <ul>
+      <div class="app-lnb__mail-box-list">
+        <ul class="mail-box-list">
           <li><a href="#">전체 메일</a></li>
           <li><a href="#">받은 메일함</a></li>
           <li><a href="#">보낸 메일함</a></li>
@@ -32,8 +33,8 @@
           <li><a href="#">휴지통</a></li>
         </ul>
       </div>
-    </div>
-    <div> Copyright ⓒ NHN Ent Corp. All Rights Reserved. </div>
-  </div>
+    </nav>
+    <footer> Copyright ⓒ NHN Ent Corp. All Rights Reserved. </footer>
+  </main>
 </body>
 </html>
