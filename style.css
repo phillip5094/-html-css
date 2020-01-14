@@ -6,3 +6,25 @@ body {
   padding: 0;
 }
 
+.header {
+  background-color: #2a5451;
+}
+
+.service-list a {
+  color: #b6c3c2;
+}
+
+.service-list a:hover {
+  color: #fff;
+}
+
+.new-mail > button {
+  background-color: #cdf0e7;
+  color: #214340
+}
+
+.mail-box-list a {
+  color: #222;
+}
+
+/* 여기부터 채워주세요 */
