@@ -6,25 +6,108 @@ body {
   padding: 0;
 }
 
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   background-color: #2a5451;
+  height: 50px;
+  flex: none;
+}
+
+.gnb {
+  height: 100%;
+}
+
+.service-list {
+  display: flex;
+
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list > li {
+  height: 100%;
 }
 
 .service-list a {
   color: #b6c3c2;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 20px;
 }
 
 .service-list a:hover {
   color: #fff;
 }
 
+.service-list li:not(:first-child) a:hover {
+  background-color: #234643;
+}
+
 .new-mail > button {
   background-color: #cdf0e7;
-  color: #214340
+  color: #214340;
+  border: 1px solid #d5eae5;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
 }
 
 .mail-box-list a {
   color: #222;
 }
 
-/* 여기부터 채워주세요 */
+.contents {
+  display: flex;
+  flex: 1;
+}
+
+.lnb {
+  width: 205px;
+  height: 100%;
+}
+
+.mail-box-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ddd;
+}
+
+.mail-box-header {
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.mail-box-mail-list {
+  border-right: 1px solid #ddd;
+}
+
+.mail-box-contents {
+  flex: 1;
+  display: flex;
+}
+
+.mail-box-mail-list,
+.mail-box-mail-contents {
+  flex: 1
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  height: 40px;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
