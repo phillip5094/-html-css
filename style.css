@@ -6,19 +6,19 @@ body {
   padding: 0;
 }
 
-.app__header {
+.header {
   background-color: #2a5451;
 }
 
-.app-gnb__service-list a {
+.service-list a {
   color: #b6c3c2;
 }
 
-.app-gnb__service-list a:hover {
+.service-list a:hover {
   color: #fff;
 }
 
-.app-new-mail > button {
+.new-mail > button {
   background-color: #cdf0e7;
   color: #214340
 }
