@@ -1,0 +1,142 @@
+.mail-contents {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.mail-contents-header {
+    flex: none;
+    height: 38px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 20px;
+}
+
+.mail-contents-header button {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 12px;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    font-size: 13px;    
+    font-weight: 700;
+    color: #222;    
+    background: #fff;    
+    cursor: pointer;
+}
+
+.mail-contents-header button:hover {
+    background: #f0f1f5;
+}
+
+.mail-contents-main {
+    flex: 1;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.favorite-btn {
+    position: absolute;
+    left: 2px;
+    top: 16px;
+    background: transparent;    
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.favorite-btn i {
+    font-size: 25px;
+}
+
+.mail-contents-subject {
+    margin: 18px 30px;
+    font-size: 20px;
+}
+
+.mail-contents-divider {
+    height: 1px;
+    background: #e5e5e5;
+    margin: 0 30px;
+}
+
+.mail-contents-data {
+    padding: 18px 30px;
+    font-size: 13px;
+}
+
+.mail-contents-data > div {
+    height: 20px;
+}
+
+.mail-contents-data label {
+    color: #777;
+    margin-right: 6px;
+    height: 21px;
+    line-height: 21px;
+    width: 50px;
+    display: inline-block;
+}
+
+.mail-contents-sendAt {
+    color: #999;
+    margin-left: 4px;
+}
+
+.mail-attachment-list {
+    border-top: 1px solid #ddd;  
+}
+
+.mail-attachment-list-header {
+    padding: 0 30px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.mail-attachment-count {
+    color: #015aff;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.mail-attachment-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mail-attachment {
+    height: 28px;
+    font-size: 13px;
+    padding: 0 30px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.mail-attachment .mail-attachment-download-icon  {
+    font-size: 18px;
+    flex: none;;
+}
+
+.mail-attachment-name {
+    margin-left: 6px;
+    flex: 1;
+}
+
+.mail-attachment-size {
+    color: #777;
+    flex: none;
+}
+
+.mail-contents-body {
+    padding: 18px 20px;
+    white-space: pre-line;
+}

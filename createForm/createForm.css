@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.createform-header {
+    flex: none;
+    height: 38px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 20px;
+    background-color: #eefcf9;
+    border: 1px solid #d5eae5;
+}
+
+.createform-header button {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 12px;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    font-size: 13px;    
+    font-weight: 700;
+    color: #222;    
+    background: transparent;    
+    cursor: pointer;
+}
+
+.createform-header button:hover {
+    background: #d6faf1;
+}
+
+.createform-body {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.createform-input-box {
+    display: flex;
+    height: 28px;
+    align-items: center;
+    margin-bottom: 10px;    
+}
+
+.createform-input-box label {
+    width: 100px;
+    flex: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.createform-input-box input[type="text"] {
+    padding-left: 9px;
+    border-radius: 2px;
+    flex: 1;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 28px;
+    outline: 0;
+}
+
+.createform-input-box input[type="text"]:focus {
+    border-color: #015aff;
+}
+
+.createform-editor {
+    flex: 1;
+}
+.createform-editor textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 9px;
+    font-size: 13px;
+}
